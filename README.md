@@ -1,5 +1,6 @@
 # ThePower_Proyecto_final
-Proyecto final Data &amp; Analytics V3
+Proyecto final Data &amp; Analytics V3.
+
 El proyecto se centra en un EDA y Dashboard de un conjunto de datos de libre elección. El proyecto final, publicado en este repositorio de GitHub, cuenta con los siguientes requisitos:
 1. Dos conjuntos de datos en bruto.
 2. Un conjunto de datos final sobre el que hayas hecho las transformaciones que estimes necesarias.
