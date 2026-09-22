@@ -28,8 +28,11 @@ Este proyecto demuestra el manejo de los siguientes conceptos:
 ```
 # 🛠 Tecnologías
 Excel
+
 Python: 3.13.11
+
 Editor: Visual Studio Code
+
 Módulos y librerías utilizados: Pandas, Numpy, Matplotlib, Seaborn, Jupyter Notebook
 # 🥗Contenido del proyecto:
 ```
