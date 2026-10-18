@@ -10,9 +10,9 @@ El proyecto se centra en un EDA y Dashboard de un conjunto de datos de libre ele
 6. Archivo README.md, que recoja los pasos seguidos durante el proyecto y el informe de tú análisis. 
 7. El repositorio debe contar con una buena organización y sistema de carpetas.
 # 💻 Requisitos mínimos del conjunto de datos:
-● Tener mínimo dos conjuntos de datos(excel, csv, bbdd de SQL) que provengan de dos fuentes distintas que se deben unir para trabajar de forma conjunta. Estos datos iniciales deberán adjuntarse en el repositorio.
-● El conjunto de datos final, después de unir las dos fuentes, debe tener una extensión mínima de 50.000 filas y 20 columnas.
-● Los datos que elegidos tienen que permitir cubrir los requisitos del proyecto: hacer limpieza y transformación de los mismos, hacer análisis estadísticos, hacer un dashboard que aporte valor, etc.
+- Tener mínimo dos conjuntos de datos(excel, csv, bbdd de SQL) que provengan de dos fuentes distintas que se deben unir para trabajar de forma conjunta. Estos datos iniciales deberán adjuntarse en el repositorio.
+- El conjunto de datos final, después de unir las dos fuentes, debe tener una extensión mínima de 50.000 filas y 20 columnas.
+- Los datos que elegidos tienen que permitir cubrir los requisitos del proyecto: hacer limpieza y transformación de los mismos, hacer análisis estadísticos, hacer un dashboard que aporte valor, etc.
 # 🎯 Requerimientos/Conocimientos aplicados
 Este proyecto demuestra el manejo de los siguientes conceptos:
 1. Transformación y limpieza de los datos
