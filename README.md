@@ -43,7 +43,6 @@ Módulos y librerías utilizados: Pandas, Numpy, Matplotlib, Seaborn, Jupyter No
 x2 archivos excel con datos iniciales 
 x1 archivo ipynb con el código
 x1 PDF con el informe ejecutivo y el análisis exploratorio.
-x1 Word con los requisitos y datos para el proyecto
 x1 Readme 
 ⚡️ El desarrollo del proyecto:
 
