@@ -24,11 +24,11 @@ Este proyecto demuestra el manejo de los siguientes conceptos:
 # 📂 Estructura del Proyecto
 ```
 📦Proyecto_final
-├── Data/                                # Datos crudos y procesados
-├── Notebooks/                            # Notebooks de Jupyter con el análisis
-├── src/                             #  Scripts de procesamiento y modelado
-├── results/                                   # Gráficos y archivos de resultados
-└── README.md                                                                   # Este archivo
+├── Data/listings.csv / review.csv                               # Datos crudos y procesados
+├── Notebooks/                                                   # Notebooks de Jupyter con el análisis
+├── src/Proyecto_final.ipynb                                     #  Scripts de procesamiento y modelado
+├── results/Informe_Y_Análisis exploratorio.pdf /Dashboard.xlxs  # Gráficos y archivos de resultados
+└── README.md                                                    # Este archivo
 ```
 # 🛠 Tecnologías
 Excel
@@ -42,7 +42,7 @@ Módulos y librerías utilizados: Pandas, Numpy, Matplotlib, Seaborn, Jupyter No
 ```
 x2 archivos excel con datos iniciales 
 x1 archivo ipynb con el código
-x1 PDF con el informe EDA final
+x1 PDF con el informe ejecutivo y el análisis exploratorio.
 x1 Word con los requisitos y datos para el proyecto
 x1 Readme 
 ⚡️ El desarrollo del proyecto:
