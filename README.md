@@ -1,6 +1,7 @@
 # ThePower_Proyecto_final
 Proyecto final Data &amp; Analytics V3.
 
+#📊Análisis exploratorio de datos y dashboard de Airbnb en París
 El proyecto se centra en un EDA y Dashboard de un conjunto de datos de libre elección. El proyecto final, publicado en este repositorio de GitHub, cuenta con los siguientes requisitos:
 1. Dos conjuntos de datos en bruto.
 2. Un conjunto de datos final sobre el que hayas hecho las transformaciones que estimes necesarias.
@@ -21,35 +22,89 @@ Este proyecto demuestra el manejo de los siguientes conceptos:
 4. Visualización de los datos
 5. Dashboard operativo
 6. Informe explicativo del análisis
-# 📂 Estructura del Proyecto
+# 📂 Datos utilizados
+Fuente Listings: Información sobre los anuncios y sus características. Finalidad: Analizar precios, ubicación, capacidad, tipo de alojamiento y anfitriones
+Fuente Review: Información relacionada con las reseñas. Finalidad: Estudiar la actividad de reseñas y su relación con las características de los alojamientos
+
+Consideración metodológica: el análisis se refiere a los alojamientos incluidos en la muestra y con reseñas observadas. El número de reseñas se utiliza como indicador indirecto de popularidad, no como una medida directa de reservas u ocupación.
+
+#📦Proyecto_final
 ```
-📦Proyecto_final
-├── Data/listings.csv / review.csv                               # Datos crudos y procesados
-├── Notebooks/                                                   # Notebooks de Jupyter con el análisis
-├── src/Proyecto_final.ipynb                                     #  Scripts de procesamiento y modelado
-├── results/Informe_Y_Análisis exploratorio.pdf /Dashboard.xlxs  # Gráficos y archivos de resultados
-└── README.md                                                    # Este archivo
+ThePower_Proyecto_final/
+│
+├── data/
+│   ├── raw/
+│   │   ├── listings.xlsx
+│   │   └── reviews.xlsx
+│   │
+│   └── processed/
+│       └── listings_review_merged.xlsx
+│
+├── notebooks/
+│   └── Proyecto_final.ipynb.ipynb
+│
+├── results/
+│   ├── Informe_Y_Análisis explorario_Airbnb_Paris.pdf
+│   ├── Dashboard_Airbnb.xlsx
+│   └── figures/
+│
+└── README.md    
 ```
+
+#🔎 Metodología de trabajo
+
+El proyecto se desarrolla en las siguientes fases:
+
+1. Recopilación e integración de datos
+  -  Carga de los archivos originales.
+  -  Revisión de la estructura y las variables disponibles.
+  -  Identificación de las claves de relación entre las fuentes.
+  -  Integración de los conjuntos de datos.
+
+2. Limpieza y transformación
+  - Revisión de valores ausentes y registros duplicados.
+  - Corrección de tipos de datos y formatos.
+  - Detección de posibles inconsistencias y valores atípicos.
+  - Preparación de variables para el análisis.
+  - Validación del dataset final.
+
+3. Análisis exploratorio de datos (EDA)
+  - Análisis de la estructura y calidad del conjunto de datos.
+  - Estadísticos descriptivos de las variables numéricas y categóricas.
+  - Distribución de precios y valoraciones.
+  - Análisis de los tipos de alojamiento y su capacidad.
+  - Comparación de resultados por barrio.
+  - Estudio de la relación entre precios, reseñas y características de los anuncios.
+
+4. Visualización y dashboard
+
+5. Informes finales
+   - Elaboración de un informe ejecutivo que recoge el enfoque metodológico, los resultados más relevantes, su interpretación y las limitaciones del análisis.
+   - Elaboración de un análisis exploratorio. 
+
+💡 Principales líneas de análisis
+
+El análisis se centra en cuatro cuestiones:
+  -  Precios: cómo varían según la capacidad, el número de dormitorios y el barrio.
+  -  Popularidad aproximada: cómo se distribuyen las reseñas entre alojamientos y barrios.
+  -  Valoraciones: qué puntuaciones presentan los anuncios.
+  -  Relaciones entre variables: qué asociaciones aparecen entre precios, características de los alojamientos, reseñas y valoraciones.
+Las relaciones identificadas son descriptivas y no permiten establecer causalidad. Además, el número de reseñas puede depender del tiempo de exposición del anuncio y no equivale al número de reservas.
+
 # 🛠 Tecnologías
 Excel
-
 Python: 3.13.11
-
 Editor: Visual Studio Code
+Módulos y librerías utilizados: Pandas, NumPy, Matplotlib, Jupyter Notebook, json
 
-Módulos y librerías utilizados: Pandas, Numpy, Matplotlib, Seaborn, Jupyter Notebook
-# 🥗Contenido del proyecto:
-```
-x2 archivos excel con datos iniciales 
-x1 archivo ipynb con el código
-x1 PDF con el informe ejecutivo y el análisis exploratorio.
-x1 Readme 
-⚡️ El desarrollo del proyecto:
+# ⚠️ Limitaciones
+Los resultados dependen de las fuentes, el periodo y los registros incluidos en la muestra.
+- El número de reseñas no mide directamente las reservas ni la ocupación.
+- Las valoraciones observadas pueden no representar a todos los alojamientos.
+- Las asociaciones estadísticas son descriptivas y no demuestran relaciones causales.
+- La ausencia de anuncios sin reseñas limita el análisis de la probabilidad de recibir una primera reseña.
+- Información hasta 2021 y centrada solo en París. Futuros análisis recomiendan ampliar a más regiones y países con información más actualizada. 
 
-
-📝El informe  del proyecto incluye: 
-
-```
 
 # 👤 Autora
 Teresa Hidalgo (https://github.com/hidalbaila)
