@@ -45,8 +45,7 @@ ThePower_Proyecto_final/
 │
 ├── results/
 │   ├── Informe_Y_Análisis explorario_Airbnb_Paris.pdf
-│   ├── Dashboard_Airbnb.xlsx
-│   └── figures/
+│   └── Dashboard_Airbnb.xlsx
 │
 └── README.md    
 ```
