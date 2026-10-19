@@ -32,7 +32,7 @@ Consideración metodológica: el análisis se refiere a los alojamientos incluid
 ```
 ThePower_Proyecto_final/
 │
-├── data/
+├── data (subidos zip a web ThePower)/
 │   ├── raw/
 │   │   ├── listings.xlsx
 │   │   └── reviews.xlsx
