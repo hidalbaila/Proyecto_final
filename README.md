@@ -1,7 +1,7 @@
 # ThePower_Proyecto_final
 Proyecto final Data &amp; Analytics V3.
 
-#📊Análisis exploratorio de datos y dashboard de Airbnb en París
+# 📊Análisis exploratorio de datos y dashboard de Airbnb en París
 El proyecto se centra en un EDA y Dashboard de un conjunto de datos de libre elección. El proyecto final, publicado en este repositorio de GitHub, cuenta con los siguientes requisitos:
 1. Dos conjuntos de datos en bruto.
 2. Un conjunto de datos final sobre el que hayas hecho las transformaciones que estimes necesarias.
@@ -28,7 +28,7 @@ Fuente Review: Información relacionada con las reseñas. Finalidad: Estudiar la
 
 Consideración metodológica: el análisis se refiere a los alojamientos incluidos en la muestra y con reseñas observadas. El número de reseñas se utiliza como indicador indirecto de popularidad, no como una medida directa de reservas u ocupación.
 
-#📦Proyecto_final
+# 📦Proyecto_final
 ```
 ThePower_Proyecto_final/
 │
@@ -49,8 +49,7 @@ ThePower_Proyecto_final/
 │
 └── README.md    
 ```
-
-#🔎 Metodología de trabajo
+# 🔎 Metodología de trabajo
 
 El proyecto se desarrolla en las siguientes fases:
 
