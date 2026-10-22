@@ -30,24 +30,17 @@ Consideración metodológica: el análisis se refiere a los alojamientos incluid
 
 # 📦Proyecto_final
 ```
+Todos los datos subidos a la plataforma https://app.thepowermba.com/challenges-and-projects/68b9a2d84e152a22e60a1d09, además, resultados finales subidos a Github:
+
 ThePower_Proyecto_final/
 │
-├── data (subidos zip a web ThePower)/
-│   ├── raw/
-│   │   ├── listings.xlsx
-│   │   └── reviews.xlsx
-│   │
-│   └── processed/
-│       └── listings_review_merged.xlsx
-│
-├── notebooks/
-│   └── Proyecto_final.ipynb.ipynb
-│
-├── results/
-│   ├── Informe_Y_Análisis explorario_Airbnb_Paris.pdf
-│   └── Dashboard_Airbnb.xlsx
-│
-└── README.md    
+├── listings.csv                                             # Base de datos sin procesar (
+│── reviews.csv                                              # Base de datos sin procesar
+│── listings_review_merged.xlsx                              # Base de datos procesada
+├── Proyecto_final.ipynb.ipynb                               # Archivo ipynb con el código (También subido en Github)
+│── Informe_Y_Análisis explorario_Airbnb_Paris.pdf           # Informe explicativo y ejecutivo También subido en Github)
+│── Dashboard_Airbnb.xlsx                                    # Dashboard operativo (También subido en Github)
+└── README.md                                                # Archivo README.md
 ```
 # 🔎 Metodología de trabajo
 
