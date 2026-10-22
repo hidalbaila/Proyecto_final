@@ -34,13 +34,13 @@ Todos los datos subidos a la plataforma https://app.thepowermba.com/challenges-a
 
 ThePower_Proyecto_final/
 │
-├── listings.csv                                             # Base de datos sin procesar (
+├── listings.csv                                             # Base de datos sin procesar 
 │── reviews.csv                                              # Base de datos sin procesar
 │── listings_review_merged.xlsx                              # Base de datos procesada
 ├── Proyecto_final.ipynb.ipynb                               # Archivo ipynb con el código (También subido en Github)
 │── Informe_Y_Análisis explorario_Airbnb_Paris.pdf           # Informe explicativo y ejecutivo También subido en Github)
 │── Dashboard_Airbnb.xlsx                                    # Dashboard operativo (También subido en Github)
-└── README.md                                                # Archivo README.md
+└── README.md                                                # Archivo README.md (También subido en Github)
 ```
 # 🔎 Metodología de trabajo
 
